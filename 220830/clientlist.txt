@@ -1,0 +1,4 @@
+0, 원주연, 01043326454, incheon, wjy6454@naver.com
+1, 강건우, 01026999103, suwon, gunwoo@naver.com
+2, 박진석, 01012345678, seoul, jinseok@naver.com
+3, 최은총, 01023456789, suwon, eunchong@naver.com

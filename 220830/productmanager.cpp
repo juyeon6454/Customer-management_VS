@@ -21,9 +21,9 @@ void ProductManager::inputProduct(bool& back, bool& flag)       //고객정보입력함
     while (1)
     {
         int p;                                           //한 번 등록후 추가 실행할 메뉴 선택 변수
-        cout << "상품명 : "; cin >> productname;
+        cout << "상품명 : "; cin >> productname; 
         cout << endl;
-        cout << "상품가격 : "; cin >> productprice;
+        cout << "상품가격 : "; cin >> productprice; 
         cout << endl;
         cout << "재고수량 : "; cin >> productstock;
         cout << endl;                                   //상품명, 상품가격, 재고수량 입출력

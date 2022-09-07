@@ -103,10 +103,10 @@ aa:
 bb:
             cout << endl;
             cout << "******* 상품 정보 관리 ******" << endl << endl;
-            cout << "      1)상품 정보 입력" << endl;
-            cout << "      2)상품 정보 조회" << endl;
-            cout << "      3)상품 정보 변경" << endl;
-            cout << "      4)상품 정보 삭제" << endl << endl;
+            cout << "      1) 상품 정보 입력" << endl;
+            cout << "      2) 상품 정보 조회" << endl;
+            cout << "      3) 상품 정보 변경" << endl;
+            cout << "      4) 상품 정보 삭제" << endl << endl;
             cout << "********************************" << endl << endl;
             cout << "원하시는 번호를 선택해주세요 : ";  b = getBnumber();;
             system("cls");
@@ -158,11 +158,11 @@ bb:
             cout << endl;
             ordermanager.organizeOrderList(clientmanager, productmanager);
             cout << "******* 쇼핑 정보 관리 *******" << endl << endl;
-            cout << "      1)상품 주문" << endl;
+            cout << "      1) 상품 주문" << endl;
             //구매일자, 고객 정보(전화번호), 상품정보(ID)
-            cout << "      2)주문 조회" << endl;
-            cout << "      3)주문 변경" << endl;
-            cout << "      4)주문 취소" << endl << endl;
+            cout << "      2) 주문 조회" << endl;
+            cout << "      3) 주문 변경" << endl;
+            cout << "      4) 주문 취소" << endl << endl;
             cout << "********************************" << endl << endl;
             cout << "원하시는 번호를 선택해주세요 : ";  c = getBnumber();;
             system("cls");
