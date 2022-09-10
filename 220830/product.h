@@ -19,14 +19,14 @@ public:
 	string getProductPrice() const;
 	void setProductPrice(string&);
 	string getProductStock() const;
-	void setProductStock(string&);
+	void setProductStock(string&);		//get으로 product의 정보들을 받아옴
 
 
 private:
 	int m_productID;
 	string m_productName;
 	string m_productPrice;
-	string m_productStock;
+	string m_productStock;				//변수 지정
 
 };
 

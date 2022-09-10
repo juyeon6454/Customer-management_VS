@@ -13,7 +13,7 @@ int num;
 int clientid = 0;
 string clientname,clientaddress,clientphonenumber,clientemail;
 map<int, Client*> ClientList;
-extern int getBnumber();
+extern int getBnumber();        //int형은 숫자만 받기 위해서 사용
 
 //++++++++++++++++++++++++++++++고객정보입력+++++++++++++++++++++++++++++++++++++++++
 void ClientManager::inputClient(bool& back, bool&flag)          //고객정보입력함수
@@ -342,7 +342,7 @@ gofirst_2:
         cout << "1) ID로 검색 2) 이름으로 검색 3) 핸드폰번호로 검색" << endl;
         cout << "-> "; t = getBnumber();      //id,이름,번호를 선택해서 고객을 찾고, 그 정보를 변경
 
-        switch (t)// ID, 이름, 핸드폰번호 선택 관련 switch
+        switch (t)      //id,이름,번호를 선택해서 고객을 찾고, 그 정보를 변경
         {
 
         case 1:

@@ -17,8 +17,8 @@ public:
     void setClientID(int&);
     int getProductID() const;
     void setProductID(int&);
-    int getProductCount() const;
-    void setProductCount(int&);
+    int getProductCount() const;            //product 및 client, order id, 구매일자 등을 받아옴 (get)
+    void setProductCount(int&);           
 
 
 private:
@@ -26,6 +26,6 @@ private:
     string m_purchaseDate;
     int m_clientID;
     int m_productID;
-    int m_productCount;
+    int m_productCount;                     //변수
 };
 #endif          // __ORDER_H
